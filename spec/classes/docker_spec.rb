@@ -393,7 +393,7 @@ describe 'docker', :type => :class do
               'ensure'          => 'present',
               'source'          => 'https://get.docker.com/rpm/1.7.0/centos-7/RPMS/x86_64/docker-engine-1.7.0-1.el7.x86_64.rpm',
               'name'            => 'docker-engine',
-              'install_options' => '--enablerepo=rhel-7-server-extras-rpms'
+              'install_options' => '--enablerepo=rhel-7-workstation-extras-rpms'
             )
 
           end
